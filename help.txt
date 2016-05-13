@@ -1,0 +1,23 @@
+error :
+
+ java.lang.IllegalStateException: File has been moved - cannot be read again
+
+solution :
+	      <property name="maxUploadSize" value="10240000"/>             
+	      <property name="maxInMemorySize" value="10240000"/>
+
+     http://stackoverflow.com/questions/3747430/problem-with-spring-fileupload
+
+
+-------------------------------------------------------
+
+attachement is null.
+passed attachement in the jsp and make the name same as as multipart field
+
+
+-------------------------------------------------------------
+
+error handler if file exceeded
+nice article here
+
+http://stackoverflow.com/questions/2689989/how-to-handle-maxuploadsizeexceededexception
